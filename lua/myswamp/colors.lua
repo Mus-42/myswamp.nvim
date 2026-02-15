@@ -4,6 +4,7 @@ return {
     fg                  = util.hsv2rgb(0, 0.0, 0.8),
     fg_punct            = util.hsv2rgb(0, 0.0, 0.6),
     fg_dark             = util.hsv2rgb(0, 0.0, 0.4),
+    fg_bright           = util.hsv2rgb(0, 0.0, 0.9),
     fg_match            = util.hsv2rgb(50, 0.8, 0.8),
     fg_menu_match       = util.hsv2rgb(10, 0.7, 0.9),
 
@@ -29,16 +30,16 @@ return {
     preprocessor        = util.hsv2rgb(260, 0.3, 0.7),
     string              = util.hsv2rgb(80, 0.6, 0.8),
     escape_seq          = util.hsv2rgb(140, 0.3, 0.8),
-    constant            = util.hsv2rgb(240, 0.3, 0.8),
+    constant            = util.hsv2rgb(240, 0.25, 0.8),
     number              = util.hsv2rgb(290, 0.35, 0.75),
-    special             = util.hsv2rgb(140, 0.3, 0.8),
+    special             = util.hsv2rgb(10, 0.9, 0.8),
     builtin             = util.hsv2rgb(340, 0.3, 0.8),
     label               = util.hsv2rgb(20, 0.1, 0.7),
     func                = util.hsv2rgb(0, 0.0, 0.8),
 
     variable            = util.hsv2rgb(200, 0.1, 0.7),
-    member              = util.hsv2rgb(120, 0.2, 0.8),
-    parameter           = util.hsv2rgb(230, 0.2, 0.8),
+    member              = util.hsv2rgb(120, 0.15, 0.8),
+    parameter           = util.hsv2rgb(230, 0.15, 0.8),
 
     -- TODO
     accent = '#FFCC66',

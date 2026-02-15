@@ -6,16 +6,16 @@ return {
     Cursor                      = { fg = c.cursor, bg = c.cursor },
     lCursor                     = { link = 'Cursor' },
     CursorIM                     = { link = 'Cursor' },
-    
-    CursorColumn                = { bg = c.ohshit },
-    CursorLine                  = { bg = c.ohshit },
-    
+
+    CursorColumn                = { bg = c.bg_visual },
+    CursorLine                  = { bg = c.bg_visual },
+
     Directory                   = { fg = c.directory },
     -- DiffAdd                  
     -- DiffChange               
     -- DiffDelete               
     -- DiffText                 
-    
+
     EndOfBuffer                 = { fg = c.bg },
     VertSplit                   = { fg = c.border },
     WinSeparator                = { fg = c.border, bold = true },
@@ -44,7 +44,7 @@ return {
     TabLine                     = { bg = c.ohshit },
     TabLineFill                 = { bg = c.ohshit },
     -- TabLineSel               
-    -- Title                    
+    Title                       = { fg = c.fg_bright, bold = true },
     Visual                      = { bg = c.bg_visual },
     VisualNOS                   = { link = 'Visual' },
     -- Whitespace              
@@ -63,7 +63,7 @@ return {
     Character                   = { fg = c.string },
     Constant                    = { fg = c.constant },
     Debug                       = { fg = c.special },
-    Delimiter                   = { link = "Special" },
+    Delimiter                   = { fg = c.fg_punct },
     Function                    = { fg = c.func },
     Identifier                  = { link = "Normal" },
     Keyword                     = { fg = c.keyword },
